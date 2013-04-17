@@ -1,0 +1,8 @@
+This repository is used to manage the Debian packaging metadata associated
+with the 'gti' program from http://r-wos.org/hacks/gti, whose codebase
+lives at https://github.com/rwos/gti
+
+This repo's canonical home is at
+  https://gitorious.org/deb-packaging/gti-deb-packaging
+
+An exact mirror is maintained at https://github.com/felixc/gti-deb-packaging
