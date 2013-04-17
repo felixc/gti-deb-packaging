@@ -1,0 +1,23 @@
+Description: Add dpkg-buildflags output to Makefile
+ Specifically, this is needed in order to get the hardening configuration.
+Author: Felix Crux <felixc@felixcrux.com>--- a/Makefile
++++ b/Makefile
+@@ -1,13 +1,16 @@
+ SHELL=/bin/sh
+ 
++DPKG_EXPORT_BUILDFLAGS = 1
++include /usr/share/dpkg/buildflags.mk
++
+ CC=gcc
+-CFLAGS=-O2 -Wall -Wextra
++CFLAGS+=-O2 -Wall -Wextra
+ 
+ PROG=gti
+ PREFIX=$(DESTDIR)/usr/games
+ 
+ $(PROG): *.c
+-	$(CC) -o $@ $(CFLAGS) $^
++	$(CC) -o $@ $(CPPFLAGS) $(CFLAGS) $(LDFLAGS) $^
+ 
+ install: $(PROG)
+ 	mkdir -p $(PREFIX)
