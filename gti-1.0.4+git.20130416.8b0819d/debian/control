@@ -13,8 +13,8 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: git
 Suggests: sl
-Description: Animates a car and launches git if you type 'gti' by mistake
+Description: Humorous typo-based git runner; drives a car over the terminal
  gti is intended to catch accidental typos of 'gti' instead of 'git'. It
  displays an animation of a car driving by, and then launches git.
  .
- The car image is derived from the look of the original VW Golf GTI.
+ The car image is derived from the look of an old VW Golf GTI.
