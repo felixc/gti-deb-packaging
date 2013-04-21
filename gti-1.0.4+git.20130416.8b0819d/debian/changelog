@@ -1,4 +1,4 @@
-gti (1.0.4+1-1) unstable; urgency=low
+gti (1.0.4+git.20130416.8b0819d-1) unstable; urgency=low
 
   * Initial release (Closes: #705850)
 
