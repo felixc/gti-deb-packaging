@@ -2,6 +2,7 @@ Description: Fix Makefile to remove the stripping of symbols
  The original upstream makefile strips symbols from the built binary, which
  we do not want it to do.
 Author: Felix Crux <felixc@felixcrux.com>
+
 --- a/Makefile
 +++ b/Makefile
 @@ -8,7 +8,6 @@

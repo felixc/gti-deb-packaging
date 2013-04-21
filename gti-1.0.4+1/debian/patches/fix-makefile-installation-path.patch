@@ -4,8 +4,8 @@ Description: Fixing Makefile installation path
  .
  We also need to create our own installation directory, since the makefile
  assumes it already exists.
-Author: Felix Crux <felixc@felixcrux.com>Index: b/Makefile
-===================================================================
+Author: Felix Crux <felixc@felixcrux.com>
+
 --- a/Makefile
 +++ b/Makefile
 @@ -4,13 +4,14 @@

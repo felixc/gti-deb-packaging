@@ -1,6 +1,8 @@
 Description: Add dpkg-buildflags output to Makefile
  Specifically, this is needed in order to get the hardening configuration.
-Author: Felix Crux <felixc@felixcrux.com>--- a/Makefile
+Author: Felix Crux <felixc@felixcrux.com>
+
+--- a/Makefile
 +++ b/Makefile
 @@ -1,13 +1,16 @@
  SHELL=/bin/sh
