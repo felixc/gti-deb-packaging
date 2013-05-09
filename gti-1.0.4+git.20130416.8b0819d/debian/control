@@ -1,8 +1,8 @@
 Source: gti
 Section: games
-Priority: extra
+Priority: optional
 Maintainer: Felix Crux <felixc@felixcrux.com>
-Build-Depends: debhelper (>= 9), dpkg-dev (>= 1.16.1~)
+Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.4
 Homepage: http://r-wos.org/hacks/gti
 Vcs-Git: git://gitorious.org/deb-packaging/gti-deb-packaging.git
@@ -11,8 +11,7 @@ Vcs-Browser: https://gitorious.org/deb-packaging/gti-deb-packaging
 Package: gti
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Recommends: git
-Suggests: sl
+Enhances: git
 Description: Humorous typo-based git runner; drives a car over the terminal
  gti is intended to catch accidental typos of 'gti' instead of 'git'. It
  displays an animation of a car driving by, and then launches git.
