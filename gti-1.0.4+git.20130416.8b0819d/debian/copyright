@@ -3,13 +3,13 @@ Upstream-Name: gti
 Upstream-Contact: Richard Wossal <richard@r-wos.org>
 Source: http://r-wos.org/hacks/gti
 Copyright: 2012-2013 Richard Wossal <richard@r-wos.org>
-License: MIT
+License: MIT Old Style
 
 Files: debian/*
 Copyright: 2013 Felix Crux <felixc@felixcrux.com>
-License: MIT
+License: MIT Old Style
 
-License: MIT
+License: MIT Old Style
  Permission to use, copy, modify, distribute, and sell this software and its
  documentation for any purpose is hereby granted without fee, provided that
  the above copyright notice appear in all copies and that both that copyright
