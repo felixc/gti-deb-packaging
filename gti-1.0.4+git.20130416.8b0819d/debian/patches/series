@@ -1,3 +1,0 @@
-fix-makefile-installation-path.patch
-fix-makefile-do-not-strip-symbols.patch
-fix-makefile-add-dpkg-buildflags.patch

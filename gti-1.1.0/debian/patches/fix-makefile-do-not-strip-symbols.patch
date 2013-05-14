@@ -1,0 +1,19 @@
+Description: Fix Makefile to remove the stripping of symbols
+ The original upstream makefile strips symbols from the built binary, which
+ we do not want it to do. This has not been forwarded upstream, as it is a
+ deliberate decision on upstream's part to perform the stripping.
+Author: Felix Crux <felixc@felixcrux.com>
+Forwarded: no
+Last-Update: 2013-05-13
+
+--- a/Makefile
++++ b/Makefile
+@@ -14,8 +14,6 @@
+ 
+ $(PROG): *.c
+ 	$(CC) -o $@ $(CPPFLAGS) $(CFLAGS) $(LDFLAGS) $^
+-	-strip -s $@
+-
+ 
+ $(MANPAGE): gti.6
+ 	gzip -9 -n -c gti.6 > gti.6.gz

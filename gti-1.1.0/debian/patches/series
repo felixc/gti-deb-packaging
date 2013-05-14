@@ -1,0 +1,3 @@
+fix-makefile-do-not-strip-symbols.patch
+fix-makefile-installation-path.patch
+fix-makefile-directory-creation.patch
