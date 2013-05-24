@@ -1,9 +1,8 @@
 Description: Fixing Makefile installation path
  The original upstream makefile installs the program to /usr/bin, but we want
- it under /usr/games. This has not been forwarded upstream, as it is a
- conscious difference in policy between what upstream wants and what we want.
+ it under /usr/games.
 Author: Felix Crux <felixc@felixcrux.com>
-Forwarded: no
+Forwarded: not-needed
 Last-Update: 2013-05-13
 
 --- a/Makefile
