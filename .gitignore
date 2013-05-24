@@ -6,3 +6,8 @@ gti-*/debian/gti.substvars
 gti-*/debian/gti/
 gti-*/gti
 gti-*/gti.6.gz
+*.debian.tar.gz
+*.dsc
+*.build
+*.changes
+*.deb
