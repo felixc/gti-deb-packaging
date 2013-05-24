@@ -1,0 +1,18 @@
+Description: Slowing down the car's speed
+ This makes the car move at a rate that allows you to actually see it clearly,
+ and which more closely matches similar programs like 'sl'.
+Author: Felix Crux <felixc@felixcrux.com>
+Forwarded: not-needed
+Last-Update: 2013-05-24
+
+--- a/gti.c
++++ b/gti.c
+@@ -39,7 +39,7 @@
+     (void) argc;
+     int i;
+     TERM_WIDTH = term_width();
+-    SLEEP_DELAY = 1000000 / (TERM_WIDTH + GTI_SPEED);
++    SLEEP_DELAY = 5000000 / (TERM_WIDTH + GTI_SPEED);
+ 
+     init_space();
+     for (i = -20; i < TERM_WIDTH; i++) {

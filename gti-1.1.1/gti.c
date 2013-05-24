@@ -39,7 +39,7 @@ int main(int argc, char **argv)
     (void) argc;
     int i;
     TERM_WIDTH = term_width();
-    SLEEP_DELAY = 1000000 / (TERM_WIDTH + GTI_SPEED);
+    SLEEP_DELAY = 5000000 / (TERM_WIDTH + GTI_SPEED);
 
     init_space();
     for (i = -20; i < TERM_WIDTH; i++) {
