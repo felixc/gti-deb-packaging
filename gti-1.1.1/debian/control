@@ -12,7 +12,7 @@ Package: gti
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Enhances: git
-Description: Humorous typo-based git runner; drives a car over the terminal
+Description: humorous typo-based git runner; drives a car over the terminal
  gti is intended to catch accidental typos of 'gti' instead of 'git'. It
  displays an animation of a car driving by, and then launches git.
  .
